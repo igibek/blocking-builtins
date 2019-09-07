@@ -1,6 +1,10 @@
-const restrict = require('../index');
-restrict('../builtins.json')
+let test = require('tape');
+const restrict = require('..');
+restrict('./builtins.json', {whitelist: true});
 
-let fs = require('fs');
-
-fs.readFileSync('tmp.txt', {encoding:'utf8'});
+test('testing whitelisting built-ins', function(t) {
+  t.plan(1)
+  let fs = require('fs');
+  let content = fs.readFileSync('./test/hello.txt', {encoding:'utf8'});
+  t.equal(content, 'hello');
+});
