@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webox-dev/blocking-builtins.git"
+    "url": "git+https://github.com/webox-dev/restrict-builtins.git"
   },
   "keywords": [
     "security",
@@ -19,7 +19,7 @@
   "author": "Igibek Koishybayev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/webox-dev/blocking-builtins/issues"
+    "url": "https://github.com/webox-dev/restrict-builtins/issues"
   },
-  "homepage": "https://github.com/webox-dev/blocking-builtins#readme"
+  "homepage": "https://github.com/webox-dev/restrict-builtins#readme"
 }
