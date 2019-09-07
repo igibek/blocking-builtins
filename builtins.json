@@ -1,0 +1,4 @@
+{
+  "blacklist": ["fs", "http"],
+  "whitelist": []
+}
